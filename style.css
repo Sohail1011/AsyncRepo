@@ -7,5 +7,39 @@
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Saira', sans-serif;
+    background: #38a3a5;
+    color: white;
+    font-family: 'Gabarito', cursive;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20rem;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.pregunta {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.pregunta h2 {
+    font-weight: 500;
+}
+
+.pregunta h3 {
+    font-weight: 400;
 }
